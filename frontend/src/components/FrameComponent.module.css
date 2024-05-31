@@ -1,0 +1,113 @@
+.itHasRoots {
+  position: relative;
+  line-height: 160%;
+}
+.itHasRootsInAPieceOfClaWrapper {
+  box-shadow: 0 5px 20px -5px rgba(71, 103, 226, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: var(--br-xl) var(--br-xl) 0 var(--br-xl);
+  background: linear-gradient(
+    101.6deg,
+    rgba(35, 82, 201, 0.8),
+    rgba(153, 16, 218, 0.8)
+  );
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-lgi);
+  max-width: 100%;
+  z-index: 3;
+}
+.wrapperGroup48097385Child {
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0.938rem;
+  top: -0.75rem;
+  transform: scale(4.793);
+}
+.wrapperGroup48097385 {
+  height: 3.75rem;
+  width: 3.75rem;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fromALine,
+.itHasRoots1,
+.ofLoremIpsum,
+.rootsInA {
+  margin: 0;
+}
+.itHasRootsContainer {
+  position: relative;
+  line-height: 160%;
+}
+.footerNavigationInner,
+.itHasRootsInAPieceOfClaContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itHasRootsInAPieceOfClaContainer {
+  box-shadow: 0 5px 20px -5px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 0 var(--br-xl) var(--br-xl) var(--br-xl);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-600);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-lgi);
+  z-index: 3;
+}
+.footerNavigationInner {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerNavigation,
+.footerNavigationWrapper,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footerNavigation {
+  gap: var(--gap-lg);
+}
+.footerNavigationWrapper,
+.frameParent {
+  align-self: stretch;
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-silver);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .footerNavigation {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .itHasRoots,
+  .itHasRootsContainer {
+    font-size: var(--font-size-base);
+    line-height: 1.625rem;
+  }
+}

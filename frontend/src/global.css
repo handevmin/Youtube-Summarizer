@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-base: 1rem;
+  --font-size-7xl: 1.625rem;
+  --font-size-2xl: 1.313rem;
+  --font-size-41xl: 3.75rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-29xl: 3rem;
+  --font-size-5xl: 1.5rem;
+
+  /* Colors */
+  --color-gray-100: #1a1a1c;
+  --color-gray-200: rgba(255, 255, 255, 0.15);
+  --color-gray-300: rgba(255, 255, 255, 0.05);
+  --color-gray-400: rgba(255, 255, 255, 0.8);
+  --color-gray-500: rgba(14, 16, 28, 0.2);
+  --color-gray-600: rgba(255, 255, 255, 0.2);
+  --color-gray-700: rgba(26, 26, 28, 0.4);
+  --color-gray-800: rgba(0, 0, 0, 0.4);
+  --color-dimgray: #56565d;
+  --color-fuchsia-100: #ff2cf7;
+  --color-fuchsia-200: #e612de;
+  --color-darkslategray: rgba(66, 66, 79, 0.2);
+  --color-silver: #b7b7b9;
+  --color-white: #fff;
+  --color-gainsboro-100: rgba(230, 230, 230, 0.05);
+  --color-lightgray: #d0d0d0;
+
+  /* Gaps */
+  --gap-90xl: 6.812rem;
+  --gap-8xl: 1.687rem;
+  --gap-35xl: 3.375rem;
+  --gap-67xl: 5.375rem;
+  --gap-24xl: 2.687rem;
+  --gap-2xl: 1.312rem;
+  --gap-xl: 1.25rem;
+  --gap-11xl: 1.875rem;
+  --gap-4xl-6: 1.475rem;
+  --gap-41xl: 3.75rem;
+  --gap-3xs: 0.625rem;
+  --gap-lg: 1.125rem;
+
+  /* Paddings */
+  --padding-8xl: 1.687rem;
+  --padding-xl: 1.25rem;
+  --padding-61xl: 5rem;
+  --padding-15xl: 2.125rem;
+  --padding-33xl: 3.25rem;
+  --padding-lg: 1.125rem;
+  --padding-4xl: 1.437rem;
+  --padding-mid: 1.062rem;
+  --padding-11xs: 0.125rem;
+  --padding-2xs: 0.687rem;
+  --padding-5xl: 1.5rem;
+  --padding-3xs: 0.625rem;
+  --padding-sm: 0.875rem;
+  --padding-12xl: 1.937rem;
+  --padding-13xl: 2rem;
+  --padding-9xs-3: 0.206rem;
+  --padding-base: 1rem;
+  --padding-2xl: 1.312rem;
+  --padding-121xl: 8.75rem;
+  --padding-lgi: 1.187rem;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-base: 16px;
+  --br-xl: 20px;
+}
